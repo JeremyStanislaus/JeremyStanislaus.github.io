@@ -1,0 +1,36 @@
+.menu{
+    background-color: aliceblue;
+    
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+    margin: 30px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 0%;
+}
+
+h2{
+    font-size: 50px;
+}
+
+.quote h2{
+    margin-top: 0%;
+}
