@@ -7,24 +7,458 @@
     <link href="style.css" rel="stylesheet">
     <title>Document</title>
 </head>
+
+<style>
+  nav{
+  text-align: center;
+  position: fixed;
+  text-decoration: none;
+  top: 0;
+  width: 1440px;
+  height: 80px;
+  z-index: 2;
+  opacity: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  }
+
+li a{
+  text-decoration: none;
+  color: white;
+  font-family: mada;
+  font-size: 25px;
+  font-weight: 80px;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+li{
+display: inline-block; 
+padding-top: 20px; 
+padding-left: 20px; 
+padding-right: 20px; 
+list-style: none;
+}
+
+ui{
+  margin: 0;
+  padding: 0;
+}
+
+.desktop-1 .page {
+  position: absolute;
+  width: 1440px;
+}
+.page-1 {
+  background-color: #f5f5f5;
+  width: 1440px;
+  height: 950px;
+}
+.hi-there-im-jeremy {
+color: var(--black);
+font-family: var(--font-family-mada);
+font-size:100px;
+font-weight: 700; 
+left: 100px;
+letter-spacing: 0; 
+line-height: normal;
+position: absolute;
+top: 282px;
+width: 1054px;
+}
+.im-a-gamer {
+color: var(--licorice);
+font-family: var(--font-family-mada);
+font-size: 50px;
+font-weight:400;
+left:100px;
+letter-spacing:0; 
+line-height: normal;
+position: absolute;
+top:550px;
+}
+.profil {
+  height: 650px;
+  left: 800px;
+  top: 100px;
+  position: absolute;
+  width: 600px;
+}
+
+.page-2{
+  background-color: grey;
+  width: 1440px;
+  height: 450px;
+  left : 3px;
+  top:0px;
+}
+.my-name-is-jeremy-st {
+  left: 581px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1000px;
+  font-size: 33px;
+  font-family: 'Poppins','Montserrat','Century Gothic';
+}
+.im-mobile-legends-p {
+  left: 581px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1120px;
+  width: 918px;
+  font-size: 33px;
+  font-family: 'Poppins','Montserrat','Century Gothic';
+}
+.mobilelegend-logo {
+  height: 399px;
+  left: 155px;
+  object-fit: cover;
+  position: absolute;
+  top: 1000px;
+  width: 417px;
+}
+.page-3 {
+  background-color: rgb(32, 32, 94);
+  width: 1440px;
+  height: 400px;
+  left : 3px;
+  top: 0px;
+}
+.education-bruder-j {
+  left: 160px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1400px;
+  font-size: 38px;
+  color: #f5f5f5;
+  font-family: 'Poppins','Montserrat','Century Gothic';
+}
+
+.page-4 {
+  background-color: white;
+  width: 1440px;
+  height: 950px; 
+}
+
+.tiktok {
+  height: 658px;
+  left: 160px;
+  object-fit: cover;
+  position: absolute;
+  top: 2000px;
+  width: 335px;
+}
+
+.ig {
+  height: 658px;
+  left: 530px;
+  object-fit: cover;
+  position: absolute;
+  top: 2000px;
+  width: 335px;
+}
+
+.email-jeremystanislausgmailcom {
+left: 963px;
+letter-spacing: 0; 
+line-height: normal;
+position: absolute; 
+text-align: center;
+top: 2110px;
+font-size: 30px;
+}
+
+.phone-62895-7019-55374 {
+left: 1000px;
+letter-spacing: 0;
+line-height: normal;
+position: absolute;
+text-align: center;
+top: 2200px;
+font-size: 30px;
+}
+
+.tiktok-chouunknown {
+left: 1030px;
+letter-spacing: 0; 
+line-height: normal;
+position: absolute; 
+text-align: center;
+top: 2290px;
+font-size: 30px;
+}
+
+.instagram-jeremystanislaus {
+left: 1020px;
+letter-spacing: 0;
+line-height: normal;
+position: absolute;
+text-align: center;
+top: 2380px;
+font-size: 30px;
+}
+
+.mobile-legends-acc-unknown {
+left: 970px;
+letter-spacing: 0; 
+line-height: normal;
+position: absolute;
+text-align: center;
+top: 2480px;
+font-size: 30px;
+}
+
+.you-can-see-my-game {
+  left: 0%;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 2650px;
+  width: 1041px;
+  font-size: 30px;
+}
+
+.page-5{
+  background-color: midnightblue;
+  width: 1440px;
+  height: 950px; 
+}
+
+.page-5 h1{
+  color: var(--white);
+  font-family: var(--font-family);
+  font-size: var(--font-family-mada);
+  font-weight: 700;
+  left: 330px;
+  letter-spacing: 0;
+  font-size: 30px;
+  color: #f5f5f5;
+  position: absolute;
+}
+
+.staistik {
+  height: 425px;
+  left: 20px;
+  object-fit: cover;
+  position: absolute;
+  top: 2820px;
+  width: 921px;
+  
+}
+
+.profil-mobile-legend {
+  height: 425px;
+  left: 20px;
+  object-fit: cover;
+  position: absolute;
+  top: 3250px;
+  width: 921px;
+}
+
+.favourite-hero {
+  left: 1152px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2800px;
+  color: #f5f5f5;
+}
+
+.chou {
+  height: 524px;
+  left: 1090px;
+  object-fit: cover;
+  position: absolute;
+  top: 2867px;
+  width: 297px;
+}
+
+.chou-hero-power-44 {
+  left: 1120px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 3390px;
+  color: #f5f5f5;
+  font-size: 30px;
+}
+
+.page-6 {
+  background-color: var(--alto);
+  height: 1034px;
+  left: 91px;
+  position: absolute;
+  top: 4086px;
+  width: 1440px;
+}
+
+.tournament-1 {
+  left: 65px;
+  top: 5px;
+  height: 250px;
+  position: absolute;
+  width: 450px;
+}
+
+
+.x1st-place-kedai-tuju {
+  left: 0px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 250px;
+  width: 536px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.tournamet-2 {
+  left: 750px;
+  top: 5px;
+  height: 250px;
+  position: absolute;
+  width: 450px;
+}
+
+.x3rd-place-honda-nati {
+  left: 690px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 250px;
+  width: 612px;
+  font-size: 30px;
+}
+
+.tournament-4 {
+  left: 65px;
+  top: 500px;
+  height: 250px;
+  position: absolute;
+  width: 450px;
+}
+
+.x2nd-place-bug-mobile { 
+left: 0px;
+letter-spacing: 0; 
+line-height: normal;
+position: absolute;
+top: 730px;
+text-align: center;
+width:627px;
+font-size: 30px;
+}
+
+.tournament-3 {
+  left: 750px;
+  top: 500px;
+  height: 250px;
+  position: absolute;
+  width: 450px;
+}
+
+.x1st-place-legenddadd {
+  left: 690px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 760px;
+  width: 627px;
+  text-align: center;
+  font-size: 30px;
+}
+
+</style>
 <body>
-    <section id="B1" class="B1 container"> 
-      <div class="menu">
+      <nav>
         <ul>
-            <li><a href="#s1">PROFIL</a></li>
-            <li><a href="#s2">CONTACT</a></li>
-            <li><a href="#s3">SKILLS</a></li>
-            <li><a href="#s4">ACHIEVEMENTS</a></li>
+          <li><a href="#s1">HOME</a></li>
+            <li><a href="#s2">PROFIL</a></li>
+            <li><a href="#s3">CONTACT</a></li>
+            <li><a href="#s4">SKILLS</a></li>
+            <li><a href="#s5">ACHIEVEMENTS</a></li>
         </ul>
+      </nav>
+
+        <div id=s1 class="page-1">
+        <img class="profil" src="profil.png" alt="profil"/>
+        <h1 class="hi-there-im-jeremy">HI THERE, <br />I'M
+         JEREMY. </h1>
+        <h2 class="im-a-gamer" >I'm A Gamer</h2>
+  </div>
+      <div id=s2 class="page-2">
+      <p class="my-name-is-jeremy-st">My name is Jeremy Stanislaus.<br />I'm 20 years old</p>
+      <p class="im-mobile-legends-p">I'm mobile legends player.<br />I've been playing Mobile Legends for about 7 years</p>
+      <img class="mobilelegend-logo" src="mobilelegend logo.png" alt="mobilelegend logo" />
       </div>
 
-      <div class="quote">
-        <h1>H'I THERE,</h1>
-        <h2>I'M JEREMY</h2>
-        <h3>hello</h3>
+      <div id=s3 class="page-3">
+      <p class="education-bruder-j"> Education : <br />Bruder Junior High School (2016-2019)<br /><br />Petrus Senior High School (2019-2021)<br /><br />Widya Dharma University</p>
       </div>
-    </section> 
+
+      <div class="page-4" id="page-4">
+      <img class="tiktok" src="tiktok.png" alt="tiktok" />
+      <img class="ig" src="ig.png" alt="ig" />
+      <div class="email-jeremystanislausgmailcom mada-black-licorice-40px">
       
+      <span class="mada-black-licorice-40px" ><strong>EMAIL</strong>&nbsp;&nbsp; <br /></span
+        ><span class="mada-medium-licorice-40px">jeremystanislaus@gmail.com</span> </div>
+      
+      <div class="phone-62895-7019-55374 mada-black-licorice-40px">
+        <span class="mada-black-licorice-40px"><strong>PHONE</strong> <br
+        /></span><span class="mada-medium-licorice-40px">
+        (+62)895-7019-55374</span></div>
 
+        <div class="tiktok-chouunknown mada-black-licorice-40px">
+          <span class="mada-black-licorice-40px"><strong>TIKTOK</strong><br /></spans><span class="mada-normal-licorice-40px">
+            @chouunknown</span></div> 
+
+        <div class="instagram-jeremystanislaus mada-black-licorice-40px">
+          <span class="mada-black-licorice-40px"><strong>INSTAGRAM</strong>
+          <br /></span><span class="mada-normal-licorice-
+          40px">@jeremystanislaus</span>
+          </div> 
+          
+          <div class="mobile-legends-acc-unknown mada-black-licorice-40px">
+           <span class="mada-black-licorice-40px"><strong>MOBILE
+           LEGENDS ACC</strong> <br /></span><span class="mada-normal-licorice-40px">unknown</span>
+          </div>
+
+           <p class="you-can-see-my-game mada-normal-licorice-40px">You can see my&nbsp;&nbsp;game play in my Tiktok Account</p>
+</div>
+        <div id=s4 class="page-5" id="page-5">
+        <h1>Skill at Mobile Legend</h1>
+        <img class="staistik" src="statistik.png" alt="statistik" />
+        <img class="profil-mobile-legend" src="profil mobile legend.png" alt="profil mobile legend" />
+        <h2 class="favourite-hero mada-normal-white-40px">Favourite Hero :</h2>
+        <img class="chou" src="chou.png" alt="chou" />
+        <p class="chou-hero-power-44 mada-black-white-45px"><span class="mada-black-white-45px">CHOU<br /></span>
+          <span class="span1">Hero Power : 4474<br/>Matches : 1800<br />Win Rate : 62.4%</span></p>
+</div>
+        <div id=s5 class="page-6" id="page-6">
+          <img class="tournament-1 tournament" src="tournament 1.png" alt="tournament 1" />
+          <p class= "x1st-place-kedai-tuju mada-bold-black-36рх">
+         <span class="mada-bold-black-36px">1st Place<br /></span><span class="mada-normal-black-36px">Kedai Tujuh Tournament<br />by Kedai7</span></p>
+        <img class="tournamet-2 tournament" src="tournament 2.png" alt="tournamet 2" />
+        <p class="x3rd-place-honda-nati mada-bold-black-36px">
+         <span class="mada-bold-black-36px">3rd Place<br /></span><span class="mada-normal-black-36px">Honda
+         National Competition<br />by AHM</span></p>
+      
+       <img class="tournament-4 tournament" src="tournament 4.png" alt="tournament 4" />
+       <p class= "x2nd-place-bug-mobile mada-bold-black-36px"><span class="mada-bold-black-36px">2nd Place<br/></span
+       ><span class= "mada-normal-black-36px">Bug MobileLegend Tournament<br />by Telkomsel</span></p>
+       <img class="tournament-3 tournament" src="tournament 3.png" alt="tournament 3" />
+       
+       <div class="x1st-place-legenddadd mada-bold-black-36px"><span class="mada-bold-black-36px">1st Place<br /></span><span 
+       class= "mada-normal-black-36px">Legenddaddy Tournament<br />by NCCC</span></div>
+      </div>
 </body>
 </html>
